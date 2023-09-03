@@ -1,0 +1,38 @@
+@import './block/promo/promo';
+@import './block/previos/prev';
+@import './block/seo/seo';
+@import './block/done/done';
+@import './block/price/price';
+@import './block/first/first';
+@import './block/footer/footer';
+
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1140px;
+    display: block;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.divider{
+    width: 220px;
+    height: 3px;
+    background: #F9BF3B;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
